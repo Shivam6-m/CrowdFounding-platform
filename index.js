@@ -7,7 +7,7 @@ const loginBtn = document.querySelector("nav button");
 loginBtn.addEventListener("click", function () {
     let username = prompt("Enter your username:");
 
-    if (username ===  null || username.trim() === "") {
+    if (username === null || username.trim() === "") {
         alert("Login cancelled.");
     } else {
         alert("Welcome " + username + "!");
