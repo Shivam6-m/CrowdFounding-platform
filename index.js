@@ -3,7 +3,7 @@ let totalDonation = 0;
 
 // Login Button
 const loginBtn = document.querySelector("nav button");
-
+ 
 loginBtn.addEventListener("click", function () {
     let username = prompt("Enter your username:");
 
